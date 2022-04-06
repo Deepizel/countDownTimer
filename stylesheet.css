@@ -1,3 +1,24 @@
 body{
     background-image: url('wallpaper.jpg');
+    color: white;
+}
+.h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comingsoon{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.hourcap, .minutecap, .secondcap{
+    margin-left: 40px;
 }
